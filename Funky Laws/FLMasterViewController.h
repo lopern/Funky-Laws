@@ -10,7 +10,16 @@
 
 @class FLDetailViewController;
 
-@interface FLMasterViewController : UITableViewController
+@interface FLMasterViewController : UIViewController {
+    UITableView *myTableView;
+    
+    UIBarButtonItem *allViewButItem;
+    UIBarButtonItem *randViewButItem;
+    UIBarButtonItem *aboutViewButItem;
+    
+    //keep track of which view is visible
+    BOOL isAllView, isAboutView, isRandomView;
+}
 
 @property (strong, nonatomic) FLDetailViewController *detailViewController;
 
