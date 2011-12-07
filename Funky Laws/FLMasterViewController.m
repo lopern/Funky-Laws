@@ -10,16 +10,23 @@
 
 #import "FLDetailViewController.h"
 
+@interface FLMasterViewController()
+-(void) configureView;
+-(void) openAllView;
+-(void) openRandomView;
+-(void) openAboutView;
+@end
+
 @implementation FLMasterViewController
 
 @synthesize detailViewController = _detailViewController;
 
-- (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
-{
-    self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
-    if (self) {
-        self.title = NSLocalizedString(@"Master", @"Master");
+-(id) init{
+    
+    if (self = [super init]) {
+
     }
+    
     return self;
 }
 							
@@ -35,12 +42,86 @@
     // Release any cached data, images, etc that aren't in use.
 }
 
+#pragma mark - 
+#pragma mark Private Methods
+
+-(void) configureView{
+
+    isAllView = YES;
+    isAboutView = isRandomView = NO;
+    
+    //Set the title for the navbar
+    [self setTitle:@"Funky Laws"];
+    //Make our navbar and toolbar black
+    [[[self navigationController] navigationBar] setTintColor:[UIColor blackColor]];
+    [[[self navigationController] toolbar] setTintColor:[UIColor blackColor]];
+    //Make the toolbar visible
+    self.navigationController.toolbarHidden = NO;    
+
+    
+    myTableView = [[UITableView alloc] initWithFrame:CGRectMake(0, 0, 320, 480)];
+    [self.view addSubview:myTableView];
+    
+    //Init the buttons for the toolbar
+    allViewButItem = [[UIBarButtonItem alloc] initWithTitle:@"All laws" style:UIBarButtonItemStyleBordered 
+                                                     target:self action:@selector(openAllView)];
+    aboutViewButItem = [[UIBarButtonItem alloc] initWithTitle:@"About" style:UIBarButtonItemStyleBordered 
+                                                       target:self action:@selector(openAboutView)];
+    randViewButItem = [[UIBarButtonItem alloc] initWithTitle:@"Random" style:UIBarButtonItemStyleBordered 
+                                                      target:self action:@selector(openRandomView)];
+    
+    //We add some FlexibleSpace
+    UIBarButtonItem	*space = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemFlexibleSpace
+                                                                              target:nil action:nil];
+    
+    NSArray *toolbarItems = [NSArray arrayWithObjects:space, allViewButItem, space, randViewButItem, space, aboutViewButItem, space, nil];
+    [self setToolbarItems:toolbarItems];
+}
+
+-(void) openAllView{
+    
+    if (isAllView == YES) {
+        return ;
+    }
+    
+}
+
+-(void) openAboutView{
+    
+    [self setTitle:@"About"];
+    
+    if (isAllView == YES) {
+        //Do something to clean up all view
+        isAllView = NO;
+    }else if (isRandomView == YES) {
+       //Do something to clean up random view
+        isRandomView = NO;
+    }
+
+    isAboutView = YES;
+}
+
+-(void) openRandomView{
+    
+    [self setTitle:@"Random law title"];
+    
+    if (isAllView == YES) {
+        //Do something to clean up all view
+        isAllView = NO;
+    }else if (isAboutView == YES) {
+        //Do something to clean up about view
+        isAboutView = NO;
+    }
+    
+    isRandomView = YES;
+}
+
 #pragma mark - View lifecycle
 
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+    [self configureView];
 }
 
 - (void)viewDidUnload
@@ -99,47 +180,10 @@
     }
 
     // Configure the cell.
-    cell.textLabel.text = NSLocalizedString(@"Detail", @"Detail");
+    cell.textLabel.text = [NSString stringWithFormat:@"Cell: %d", indexPath.row];
+    
     return cell;
 }
-
-/*
-// Override to support conditional editing of the table view.
-- (BOOL)tableView:(UITableView *)tableView canEditRowAtIndexPath:(NSIndexPath *)indexPath
-{
-    // Return NO if you do not want the specified item to be editable.
-    return YES;
-}
-*/
-
-/*
-// Override to support editing the table view.
-- (void)tableView:(UITableView *)tableView commitEditingStyle:(UITableViewCellEditingStyle)editingStyle forRowAtIndexPath:(NSIndexPath *)indexPath
-{
-    if (editingStyle == UITableViewCellEditingStyleDelete) {
-        // Delete the row from the data source.
-        [tableView deleteRowsAtIndexPaths:[NSArray arrayWithObject:indexPath] withRowAnimation:UITableViewRowAnimationFade];
-    } else if (editingStyle == UITableViewCellEditingStyleInsert) {
-        // Create a new instance of the appropriate class, insert it into the array, and add a new row to the table view.
-    }   
-}
-*/
-
-/*
-// Override to support rearranging the table view.
-- (void)tableView:(UITableView *)tableView moveRowAtIndexPath:(NSIndexPath *)fromIndexPath toIndexPath:(NSIndexPath *)toIndexPath
-{
-}
-*/
-
-/*
-// Override to support conditional rearranging of the table view.
-- (BOOL)tableView:(UITableView *)tableView canMoveRowAtIndexPath:(NSIndexPath *)indexPath
-{
-    // Return NO if you do not want the item to be re-orderable.
-    return YES;
-}
-*/
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
