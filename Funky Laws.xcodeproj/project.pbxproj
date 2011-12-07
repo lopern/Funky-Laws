@@ -15,6 +15,7 @@
 		09DDE3E8148FF0F6008E1E38 /* FLAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 09DDE3E7148FF0F6008E1E38 /* FLAppDelegate.m */; };
 		09DDE3EB148FF0F6008E1E38 /* FLMasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 09DDE3EA148FF0F6008E1E38 /* FLMasterViewController.m */; };
 		09DDE3EE148FF0F6008E1E38 /* FLDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 09DDE3ED148FF0F6008E1E38 /* FLDetailViewController.m */; };
+		09DDE3FB148FF9C0008E1E38 /* Funny laws.plist in Resources */ = {isa = PBXBuildFile; fileRef = 09DDE3FA148FF9C0008E1E38 /* Funny laws.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		09DDE3EA148FF0F6008E1E38 /* FLMasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FLMasterViewController.m; sourceTree = "<group>"; };
 		09DDE3EC148FF0F6008E1E38 /* FLDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FLDetailViewController.h; sourceTree = "<group>"; };
 		09DDE3ED148FF0F6008E1E38 /* FLDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FLDetailViewController.m; sourceTree = "<group>"; };
+		09DDE3FA148FF9C0008E1E38 /* Funny laws.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Funny laws.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +84,7 @@
 				09DDE3E7148FF0F6008E1E38 /* FLAppDelegate.m */,
 				09DDE3E9148FF0F6008E1E38 /* FLMasterViewController.h */,
 				09DDE3EA148FF0F6008E1E38 /* FLMasterViewController.m */,
+				09DDE3FA148FF9C0008E1E38 /* Funny laws.plist */,
 				09DDE3EC148FF0F6008E1E38 /* FLDetailViewController.h */,
 				09DDE3ED148FF0F6008E1E38 /* FLDetailViewController.m */,
 				09DDE3DE148FF0F6008E1E38 /* Supporting Files */,
@@ -152,6 +155,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				09DDE3E2148FF0F6008E1E38 /* InfoPlist.strings in Resources */,
+				09DDE3FB148FF9C0008E1E38 /* Funny laws.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
