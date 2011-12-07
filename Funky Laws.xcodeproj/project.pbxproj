@@ -80,13 +80,11 @@
 		09DDE3DD148FF0F6008E1E38 /* Funky Laws */ = {
 			isa = PBXGroup;
 			children = (
+				09DDE40214900622008E1E38 /* Model */,
+				09DDE4011490061A008E1E38 /* Views */,
+				09DDE40014900604008E1E38 /* Controller */,
 				09DDE3E6148FF0F6008E1E38 /* FLAppDelegate.h */,
 				09DDE3E7148FF0F6008E1E38 /* FLAppDelegate.m */,
-				09DDE3E9148FF0F6008E1E38 /* FLMasterViewController.h */,
-				09DDE3EA148FF0F6008E1E38 /* FLMasterViewController.m */,
-				09DDE3FA148FF9C0008E1E38 /* Funny laws.plist */,
-				09DDE3EC148FF0F6008E1E38 /* FLDetailViewController.h */,
-				09DDE3ED148FF0F6008E1E38 /* FLDetailViewController.m */,
 				09DDE3DE148FF0F6008E1E38 /* Supporting Files */,
 			);
 			path = "Funky Laws";
@@ -95,12 +93,38 @@
 		09DDE3DE148FF0F6008E1E38 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				09DDE3FA148FF9C0008E1E38 /* Funny laws.plist */,
 				09DDE3DF148FF0F6008E1E38 /* Funky Laws-Info.plist */,
 				09DDE3E0148FF0F6008E1E38 /* InfoPlist.strings */,
 				09DDE3E3148FF0F6008E1E38 /* main.m */,
 				09DDE3E5148FF0F6008E1E38 /* Funky Laws-Prefix.pch */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		09DDE40014900604008E1E38 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				09DDE3E9148FF0F6008E1E38 /* FLMasterViewController.h */,
+				09DDE3EA148FF0F6008E1E38 /* FLMasterViewController.m */,
+				09DDE3EC148FF0F6008E1E38 /* FLDetailViewController.h */,
+				09DDE3ED148FF0F6008E1E38 /* FLDetailViewController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		09DDE4011490061A008E1E38 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		09DDE40214900622008E1E38 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
