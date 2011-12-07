@@ -27,10 +27,11 @@
     self.window = [[[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]] autorelease];
     // Override point for customization after application launch.
 
-    FLMasterViewController *masterViewController = [[[FLMasterViewController alloc] initWithNibName:@"FLMasterViewController" bundle:nil] autorelease];
+    FLMasterViewController *masterViewController = [[[FLMasterViewController alloc] init] autorelease];
     self.navigationController = [[[UINavigationController alloc] initWithRootViewController:masterViewController] autorelease];
     self.window.rootViewController = self.navigationController;
     [self.window makeKeyAndVisible];
+    
     return YES;
 }
 
