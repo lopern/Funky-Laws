@@ -15,8 +15,6 @@
 		09DDE3E8148FF0F6008E1E38 /* FLAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 09DDE3E7148FF0F6008E1E38 /* FLAppDelegate.m */; };
 		09DDE3EB148FF0F6008E1E38 /* FLMasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 09DDE3EA148FF0F6008E1E38 /* FLMasterViewController.m */; };
 		09DDE3EE148FF0F6008E1E38 /* FLDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 09DDE3ED148FF0F6008E1E38 /* FLDetailViewController.m */; };
-		09DDE3F1148FF0F7008E1E38 /* FLMasterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 09DDE3EF148FF0F7008E1E38 /* FLMasterViewController.xib */; };
-		09DDE3F4148FF0F7008E1E38 /* FLDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 09DDE3F2148FF0F7008E1E38 /* FLDetailViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,8 +32,6 @@
 		09DDE3EA148FF0F6008E1E38 /* FLMasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FLMasterViewController.m; sourceTree = "<group>"; };
 		09DDE3EC148FF0F6008E1E38 /* FLDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FLDetailViewController.h; sourceTree = "<group>"; };
 		09DDE3ED148FF0F6008E1E38 /* FLDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FLDetailViewController.m; sourceTree = "<group>"; };
-		09DDE3F0148FF0F7008E1E38 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/FLMasterViewController.xib; sourceTree = "<group>"; };
-		09DDE3F3148FF0F7008E1E38 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/FLDetailViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,8 +84,6 @@
 				09DDE3EA148FF0F6008E1E38 /* FLMasterViewController.m */,
 				09DDE3EC148FF0F6008E1E38 /* FLDetailViewController.h */,
 				09DDE3ED148FF0F6008E1E38 /* FLDetailViewController.m */,
-				09DDE3EF148FF0F7008E1E38 /* FLMasterViewController.xib */,
-				09DDE3F2148FF0F7008E1E38 /* FLDetailViewController.xib */,
 				09DDE3DE148FF0F6008E1E38 /* Supporting Files */,
 			);
 			path = "Funky Laws";
@@ -158,8 +152,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				09DDE3E2148FF0F6008E1E38 /* InfoPlist.strings in Resources */,
-				09DDE3F1148FF0F7008E1E38 /* FLMasterViewController.xib in Resources */,
-				09DDE3F4148FF0F7008E1E38 /* FLDetailViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -186,22 +178,6 @@
 				09DDE3E1148FF0F6008E1E38 /* en */,
 			);
 			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		09DDE3EF148FF0F7008E1E38 /* FLMasterViewController.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				09DDE3F0148FF0F7008E1E38 /* en */,
-			);
-			name = FLMasterViewController.xib;
-			sourceTree = "<group>";
-		};
-		09DDE3F2148FF0F7008E1E38 /* FLDetailViewController.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				09DDE3F3148FF0F7008E1E38 /* en */,
-			);
-			name = FLDetailViewController.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
