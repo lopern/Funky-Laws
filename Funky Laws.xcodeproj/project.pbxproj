@@ -1,0 +1,298 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		09DDE3D8148FF0F6008E1E38 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09DDE3D7148FF0F6008E1E38 /* UIKit.framework */; };
+		09DDE3DA148FF0F6008E1E38 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09DDE3D9148FF0F6008E1E38 /* Foundation.framework */; };
+		09DDE3DC148FF0F6008E1E38 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09DDE3DB148FF0F6008E1E38 /* CoreGraphics.framework */; };
+		09DDE3E2148FF0F6008E1E38 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 09DDE3E0148FF0F6008E1E38 /* InfoPlist.strings */; };
+		09DDE3E4148FF0F6008E1E38 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 09DDE3E3148FF0F6008E1E38 /* main.m */; };
+		09DDE3E8148FF0F6008E1E38 /* FLAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 09DDE3E7148FF0F6008E1E38 /* FLAppDelegate.m */; };
+		09DDE3EB148FF0F6008E1E38 /* FLMasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 09DDE3EA148FF0F6008E1E38 /* FLMasterViewController.m */; };
+		09DDE3EE148FF0F6008E1E38 /* FLDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 09DDE3ED148FF0F6008E1E38 /* FLDetailViewController.m */; };
+		09DDE3F1148FF0F7008E1E38 /* FLMasterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 09DDE3EF148FF0F7008E1E38 /* FLMasterViewController.xib */; };
+		09DDE3F4148FF0F7008E1E38 /* FLDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 09DDE3F2148FF0F7008E1E38 /* FLDetailViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		09DDE3D3148FF0F6008E1E38 /* Funky Laws.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Funky Laws.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		09DDE3D7148FF0F6008E1E38 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		09DDE3D9148FF0F6008E1E38 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		09DDE3DB148FF0F6008E1E38 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		09DDE3DF148FF0F6008E1E38 /* Funky Laws-Info.plist */ = {isa = PBXFileReference; path = "Funky Laws-Info.plist"; sourceTree = "<group>"; };
+		09DDE3E1148FF0F6008E1E38 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		09DDE3E3148FF0F6008E1E38 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		09DDE3E5148FF0F6008E1E38 /* Funky Laws-Prefix.pch */ = {isa = PBXFileReference; path = "Funky Laws-Prefix.pch"; sourceTree = "<group>"; };
+		09DDE3E6148FF0F6008E1E38 /* FLAppDelegate.h */ = {isa = PBXFileReference; path = FLAppDelegate.h; sourceTree = "<group>"; };
+		09DDE3E7148FF0F6008E1E38 /* FLAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FLAppDelegate.m; sourceTree = "<group>"; };
+		09DDE3E9148FF0F6008E1E38 /* FLMasterViewController.h */ = {isa = PBXFileReference; path = FLMasterViewController.h; sourceTree = "<group>"; };
+		09DDE3EA148FF0F6008E1E38 /* FLMasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FLMasterViewController.m; sourceTree = "<group>"; };
+		09DDE3EC148FF0F6008E1E38 /* FLDetailViewController.h */ = {isa = PBXFileReference; path = FLDetailViewController.h; sourceTree = "<group>"; };
+		09DDE3ED148FF0F6008E1E38 /* FLDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FLDetailViewController.m; sourceTree = "<group>"; };
+		09DDE3F0148FF0F7008E1E38 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/FLMasterViewController.xib; sourceTree = "<group>"; };
+		09DDE3F3148FF0F7008E1E38 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/FLDetailViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		09DDE3D0148FF0F6008E1E38 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09DDE3D8148FF0F6008E1E38 /* UIKit.framework in Frameworks */,
+				09DDE3DA148FF0F6008E1E38 /* Foundation.framework in Frameworks */,
+				09DDE3DC148FF0F6008E1E38 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		09DDE3C8148FF0F6008E1E38 = {
+			isa = PBXGroup;
+			children = (
+				09DDE3DD148FF0F6008E1E38 /* Funky Laws */,
+				09DDE3D6148FF0F6008E1E38 /* Frameworks */,
+				09DDE3D4148FF0F6008E1E38 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		09DDE3D4148FF0F6008E1E38 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				09DDE3D3148FF0F6008E1E38 /* Funky Laws.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		09DDE3D6148FF0F6008E1E38 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				09DDE3D7148FF0F6008E1E38 /* UIKit.framework */,
+				09DDE3D9148FF0F6008E1E38 /* Foundation.framework */,
+				09DDE3DB148FF0F6008E1E38 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		09DDE3DD148FF0F6008E1E38 /* Funky Laws */ = {
+			isa = PBXGroup;
+			children = (
+				09DDE3E6148FF0F6008E1E38 /* FLAppDelegate.h */,
+				09DDE3E7148FF0F6008E1E38 /* FLAppDelegate.m */,
+				09DDE3E9148FF0F6008E1E38 /* FLMasterViewController.h */,
+				09DDE3EA148FF0F6008E1E38 /* FLMasterViewController.m */,
+				09DDE3EC148FF0F6008E1E38 /* FLDetailViewController.h */,
+				09DDE3ED148FF0F6008E1E38 /* FLDetailViewController.m */,
+				09DDE3EF148FF0F7008E1E38 /* FLMasterViewController.xib */,
+				09DDE3F2148FF0F7008E1E38 /* FLDetailViewController.xib */,
+				09DDE3DE148FF0F6008E1E38 /* Supporting Files */,
+			);
+			path = "Funky Laws";
+			sourceTree = "<group>";
+		};
+		09DDE3DE148FF0F6008E1E38 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				09DDE3DF148FF0F6008E1E38 /* Funky Laws-Info.plist */,
+				09DDE3E0148FF0F6008E1E38 /* InfoPlist.strings */,
+				09DDE3E3148FF0F6008E1E38 /* main.m */,
+				09DDE3E5148FF0F6008E1E38 /* Funky Laws-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		09DDE3D2148FF0F6008E1E38 /* Funky Laws */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 09DDE3F7148FF0F7008E1E38 /* Build configuration list for PBXNativeTarget "Funky Laws" */;
+			buildPhases = (
+				09DDE3CF148FF0F6008E1E38 /* Sources */,
+				09DDE3D0148FF0F6008E1E38 /* Frameworks */,
+				09DDE3D1148FF0F6008E1E38 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Funky Laws";
+			productName = "Funky Laws";
+			productReference = 09DDE3D3148FF0F6008E1E38 /* Funky Laws.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		09DDE3CA148FF0F6008E1E38 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = Flexnor;
+			};
+			buildConfigurationList = 09DDE3CD148FF0F6008E1E38 /* Build configuration list for PBXProject "Funky Laws" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 09DDE3C8148FF0F6008E1E38;
+			productRefGroup = 09DDE3D4148FF0F6008E1E38 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				09DDE3D2148FF0F6008E1E38 /* Funky Laws */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		09DDE3D1148FF0F6008E1E38 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09DDE3E2148FF0F6008E1E38 /* InfoPlist.strings in Resources */,
+				09DDE3F1148FF0F7008E1E38 /* FLMasterViewController.xib in Resources */,
+				09DDE3F4148FF0F7008E1E38 /* FLDetailViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		09DDE3CF148FF0F6008E1E38 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09DDE3E4148FF0F6008E1E38 /* main.m in Sources */,
+				09DDE3E8148FF0F6008E1E38 /* FLAppDelegate.m in Sources */,
+				09DDE3EB148FF0F6008E1E38 /* FLMasterViewController.m in Sources */,
+				09DDE3EE148FF0F6008E1E38 /* FLDetailViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		09DDE3E0148FF0F6008E1E38 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				09DDE3E1148FF0F6008E1E38 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		09DDE3EF148FF0F7008E1E38 /* FLMasterViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				09DDE3F0148FF0F7008E1E38 /* en */,
+			);
+			name = FLMasterViewController.xib;
+			sourceTree = "<group>";
+		};
+		09DDE3F2148FF0F7008E1E38 /* FLDetailViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				09DDE3F3148FF0F7008E1E38 /* en */,
+			);
+			name = FLDetailViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		09DDE3F5148FF0F7008E1E38 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		09DDE3F6148FF0F7008E1E38 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		09DDE3F8148FF0F7008E1E38 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Funky Laws/Funky Laws-Prefix.pch";
+				INFOPLIST_FILE = "Funky Laws/Funky Laws-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		09DDE3F9148FF0F7008E1E38 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Funky Laws/Funky Laws-Prefix.pch";
+				INFOPLIST_FILE = "Funky Laws/Funky Laws-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		09DDE3CD148FF0F6008E1E38 /* Build configuration list for PBXProject "Funky Laws" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				09DDE3F5148FF0F7008E1E38 /* Debug */,
+				09DDE3F6148FF0F7008E1E38 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		09DDE3F7148FF0F7008E1E38 /* Build configuration list for PBXNativeTarget "Funky Laws" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				09DDE3F8148FF0F7008E1E38 /* Debug */,
+				09DDE3F9148FF0F7008E1E38 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 09DDE3CA148FF0F6008E1E38 /* Project object */;
+}
