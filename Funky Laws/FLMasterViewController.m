@@ -81,10 +81,7 @@
     //Make our navbar and toolbar black
     [[[self navigationController] navigationBar] setTintColor:[UIColor blackColor]];
     [[[self navigationController] toolbar] setTintColor:[UIColor blackColor]];
-    //Make the toolbar visible
-    self.navigationController.toolbarHidden = NO;    
-
-    
+      
     myTableView = [[UITableView alloc] initWithFrame:CGRectMake(0, 0, 320, 480)];
     myTableView.delegate = self;
     myTableView.dataSource = self;
@@ -163,6 +160,8 @@
 - (void)viewWillAppear:(BOOL)animated
 {
     [super viewWillAppear:animated];
+    //Make the toolbar visible
+    self.navigationController.toolbarHidden = NO;  
 }
 
 - (void)viewDidAppear:(BOOL)animated
