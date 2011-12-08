@@ -7,10 +7,12 @@
 //
 
 #import "FLMasterViewController.h"
-
 #import "FLDetailViewController.h"
+#import "Plist.h"
+#import "LawObject.h"
 
 @interface FLMasterViewController()
+-(void) configureData;
 -(void) configureView;
 -(void) openAllView;
 -(void) openRandomView;
@@ -24,7 +26,8 @@
 -(id) init{
     
     if (self = [super init]) {
-
+        
+        [self configureData];
     }
     
     return self;
@@ -45,13 +48,36 @@
 #pragma mark - 
 #pragma mark Private Methods
 
+-(void) configureData{
+    
+    int lawCount = 100;
+    NSRange range = NSMakeRange(0, 19);
+    lawContainer = [[NSMutableArray alloc] init];
+    
+    NSString *plistName = @"Funny laws";
+    Plist *plist = [[Plist alloc] init];
+    
+    NSDictionary *lawDict = [[NSDictionary alloc] initWithDictionary:[plist readPlist:plistName]];
+    
+    for (int i = 1; i <= lawCount; i++) {
+        
+        NSString *lawKey = [NSString stringWithFormat:@"%d", i];        
+        NSString *lawDesc = [lawDict objectForKey:lawKey];
+        NSString *lawTitle = [lawDesc substringWithRange:range];
+        
+        LawObject *law = [[[LawObject alloc] initWithTitle:lawTitle description:lawDesc] autorelease];        
+        [lawContainer addObject:law];
+    }
+    
+}
+
 -(void) configureView{
 
     isAllView = YES;
     isAboutView = isRandomView = NO;
-    
+
     //Set the title for the navbar
-    [self setTitle:@"Funky Laws"];
+    [self setTitle:@"Menu"];
     //Make our navbar and toolbar black
     [[[self navigationController] navigationBar] setTintColor:[UIColor blackColor]];
     [[[self navigationController] toolbar] setTintColor:[UIColor blackColor]];
@@ -60,6 +86,9 @@
 
     
     myTableView = [[UITableView alloc] initWithFrame:CGRectMake(0, 0, 320, 480)];
+    myTableView.delegate = self;
+    myTableView.dataSource = self;
+    
     [self.view addSubview:myTableView];
     
     //Init the buttons for the toolbar
@@ -165,7 +194,7 @@
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
-    return 1;
+    return 100;
 }
 
 // Customize the appearance of table view cells.
@@ -178,18 +207,21 @@
         cell = [[[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:CellIdentifier] autorelease];
         cell.accessoryType = UITableViewCellAccessoryDisclosureIndicator;
     }
-
+    
+    LawObject *law = [lawContainer objectAtIndex:indexPath.row];
+    
     // Configure the cell.
-    cell.textLabel.text = [NSString stringWithFormat:@"Cell: %d", indexPath.row];
+    cell.textLabel.text = law.title;
     
     return cell;
 }
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
-{
-    if (!self.detailViewController) {
-        self.detailViewController = [[[FLDetailViewController alloc] initWithNibName:@"FLDetailViewController" bundle:nil] autorelease];
-    }
+{    
+    LawObject *law = [lawContainer objectAtIndex:indexPath.row];
+        
+    self.detailViewController = [[[FLDetailViewController alloc] initWithDescription:law.description] autorelease];
+    self.detailViewController.title = law.title;
     [self.navigationController pushViewController:self.detailViewController animated:YES];
 }
 
