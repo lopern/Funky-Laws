@@ -2,7 +2,219 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>0</key>
-	<string></string>
+	<key>1</key>
+	<string>In Alabama, Bear wrestling matches are prohibited.</string>
+	<key>2</key>
+	<string>In Alabama, It is considered an offense to open an umbrella on a street, for fear of spooking horses.</string>
+	<key>3</key>
+	<string>In Alabama, Dominoes may not be played on Sunday.</string>
+	<key>4</key>
+	<string>In Alabama, It is illegal to wear a fake moustache that causes laughter in church.</string>
+	<key>5</key>
+	<string>In Alaska, It is considered an offense to feed alcoholic beverages to a moose.</string>
+	<key>6</key>
+	<string>In Alaska, Owners of flamingos may not let their pet into barber shops.</string>
+	<key>7</key>
+	<string>In Arizona, When being attacked by a criminal or burglar, you may only protect yourself with the same weapon that the other person posseses.</string>
+	<key>8</key>
+	<string>In Arizona, You may not have more than two dildos in a house.</string>
+	<key>9</key>
+	<string>In Arizona, No more than six girls may live in any house.</string>
+	<key>10</key>
+	<string>In Arizona, It is illegal for men and women over the age of 18 to have less than one missing tooth visible when smiling.</string>
+	<key>11</key>
+	<string>In Tucson; Arizona, Women may not wear pants.</string>
+	<key>12</key>
+	<string>In Arkansas, A law provides that school teachers who bob their hair will not get a raise.</string>
+	<key>13</key>
+	<string>In Arkansas, A man can legally beat his wife, but not more thanonce a month.</string>
+	<key>14</key>
+	<string>In Arkansas, Alligators may not be kept in bathtubs.</string>
+	<key>15</key>
+	<string>In Arkansas, It is illegal to kill “any living creature”.</string>
+	<key>16</key>
+	<string>In Little rock; Arkansas, No one may “suddenly start or stop&quot; their car at a McDonald’s.</string>
+	<key>17</key>
+	<string>In Little rock; Arkansas, Dogs may not bark after 6 PM.</string>
+	<key>18</key>
+	<string>In Little rock; Arkansas, Flirtation between men and women on the streets of Little Rock may result in a 30-day jail term.</string>
+	<key>19</key>
+	<string>In Little rock; Arkansas, It is unlawful to walk one’s cow down Main Street after 1:00 PM on Sunday.</string>
+	<key>20</key>
+	<string>In California, Bathhouses are against the law.</string>
+	<key>21</key>
+	<string>In California, No vehicle without a driver may exceed 60 miles per hour.</string>
+	<key>23</key>
+	<string>In California, Women may not drive in a house coat.</string>
+	<key>24</key>
+	<string>In Blyth; California, You are not permitted to wear cowboy boots unless you already own at least two cows.</string>
+	<key>25</key>
+	<string>In Carmel; California, A man can’t go outside while wearing a jacket and pants that do not match.
+</string>
+	<key>26</key>
+	<string>In Carmel; Callifornia, Ice cream may not be eaten while standing on the sidewalk. (Repealed when Clint Eastwood was mayor)</string>
+	<key>27</key>
+	<string>In Carmel; California, Women may not wear high heels while in the city limits.</string>
+	<key>29</key>
+	<string>In Alamaso; Colorado, Throwing missles at cars is illegal.</string>
+	<key>30</key>
+	<string>In Alamaso; Colorado, Keeping a house where unmarried persons are allowed to have sex is prohibited.</string>
+	<key>31</key>
+	<string>In Aspen; Colorado, Catapults may not be fired at buildings.</string>
+	<key>32</key>
+	<string>In Aspen; Colorado, It is legal to challenge a police officer, but only until he or she asks you to stop.</string>
+	<key>33</key>
+	<string>In Aspen; Colorado, It is illegal to permit ones llama to graze on city property.</string>
+	<key>34</key>
+	<string>In Aspen; Colorado, Boulders may not be rolled on city property.</string>
+	<key>35</key>
+	<string>In Colorado, In order for a pickle to officially be considered a pickle, it must bounce.</string>
+	<key>36</key>
+	<string>In Colorado, it is illegal to dispose of used razor blades.</string>
+	<key>37</key>
+	<string>In Devon; Colorado, It is unlawful to walk backwards after sunset.</string>
+	<key>38</key>
+	<string>In Guildford; Conneticut, Only white Christmas lights are allowed for display.</string>
+	<key>40</key>
+	<string>In Hartford Conneticut, You aren’t allowed to cross a street while walking on your hands.</string>
+	<key>41</key>
+	<string>In Hartford; Conneticut, You may not educate dogs.</string>
+	<key>42</key>
+	<string>In Hartford; Conneticut, It is illegal for a man to kiss his wife on Sunday.</string>
+	<key>43</key>
+	<string>In Waterbury; Conneticut, It is illegal for any beautician to hum, whistle, or sing while working on a customer.</string>
+	<key>44</key>
+	<string>In Southington; Conneticut, Silly string is banned.</string>
+	<key>45</key>
+	<string>In Lewes; Delaware, It is illegal to wear pants that are “firm fitting” around the waist.</string>
+	<key>46</key>
+	<string>In Delaware, One may not whisper in church.</string>
+	<key>47</key>
+	<string>In Delaware, No person shall pretend to sleep on a bench on theboardwalk.</string>
+	<key>48</key>
+	<string>In Delaware, Alcohol may not be served in nightclubs if dancing is occurring on the premises at the same time.</string>
+	<key>49</key>
+	<string>In Florida, It is illegal for a doctor to ask a patient whether they own a gun.</string>
+	<key>50</key>
+	<string>In Florida, One may not commit any “unnatural acts” with another person.</string>
+	<key>51</key>
+	<string>In Florida, Unmarried couples may not commit “lewd acts” and live together in the same residence.
+
+</string>
+	<key>52</key>
+	<string>In Florida, Doors of all public buildings must open outwards.</string>
+	<key>53</key>
+	<string>In Florida, It is illegal to sell your children.</string>
+	<key>54</key>
+	<string>In Florida, Women may be fined for falling asleep under a hair dryer, as can the salon owner.</string>
+	<key>55</key>
+	<string>In Florida, A special law prohibits unmarried women from parachuting on Sunday or she shall risk arrest, fine, and/or jailing.</string>
+	<key>56</key>
+	<string>In Florida, If an elephant is left tied to a parking meter, the parking fee has to be paid just as it would for a vehicle.</string>
+	<key>57</key>
+	<string>In Florida, Having sexual relations with a porcupine is illegal.</string>
+	<key>58</key>
+	<string>In Florida, When having sex, only the missionary position is legal.</string>
+	<key>59</key>
+	<string>In Florida, You may not fart in a public place after 6 PM.</string>
+	<key>60</key>
+	<string>In Florida, Oral sex is illegal.</string>
+	<key>61</key>
+	<string>In Florida, You may not kiss your wife’s breasts.</string>
+	<key>62</key>
+	<string>In Georgia, The term “sadomasochistic abuse” is defined so broadly, that it could possibly be applied to a person handcuffing another in a clown suit.</string>
+	<key>63</key>
+	<string>In Georgia, All sex toys are banned.</string>
+	<key>64</key>
+	<string>In Georgia, It is illegal to use profanity in front of a dead body which lies in a funeral home or in a coroners office.</string>
+	<key>65</key>
+	<string>In Georgia, Donkeys may not be kept in bathtubs.</string>
+	<key>66</key>
+	<string>In Georgia, Signs are required to be written in English.
+</string>
+	<key>67</key>
+	<string>In Georgia, No one may carry an ice cream cone in their back pocket if it is Sunday.</string>
+	<key>68</key>
+	<string>In Hawaii, All residents may be fined as a result of not owning a boat.</string>
+	<key>69</key>
+	<string>In Hawaii, Billboards are outlawed.</string>
+	<key>70</key>
+	<string>In Hawaii, Coins are not allowed to be placed in one’s ears.
+
+Idaho</string>
+	<key>71</key>
+	<string>In Idaho, You may not fish on a camel’s back.</string>
+	<key>72</key>
+	<string>In Idaho, Riding a merry-go-round on Sundays is considered a crime.</string>
+	<key>73</key>
+	<string>In Idaho, Illegal for a man to give his sweetheart a box of candy weighing less than fifty pounds.</string>
+	<key>74</key>
+	<string>In Illinois, You may be arrested for vagrancy if you do not have at least one dollar bill on your person.</string>
+	<key>75</key>
+	<string>In illinois, You must contact the police before entering the city in an automobile.</string>
+	<key>76</key>
+	<string>In Indiana, Hotel sheets must be exactly 99 inches long and 81 inches wide.</string>
+	<key>77</key>
+	<string>In Indiana, If any person has a puppet show, wire dancing or tumbling act in the state of Indiana and receives money for it, they will be fined $3 under the Act to Prevent Certain Immoral Practices.</string>
+	<key>78</key>
+	<string>In Indiana, Anyone 14 or older who profanely curses, damns or swears by the name of God, Jesus Christ or the Holy Ghost, shall be fined one to three dollars for each offense, with a maximum fine of ten dollars per day.</string>
+	<key>79</key>
+	<string>In Indiana, It is illegal for a man to be sexually aroused in public.</string>
+	<key>80</key>
+	<string>In indiana, One may not sniff glue.</string>
+	<key>81</key>
+	<string>In indiana, Baths may not be taken between the months of October and March.</string>
+	<key>82</key>
+	<string>In Indiana,  A man over the age of 18 may be arrested for statutory rape if the passenger in his car is not wearing her socks and shoes, and is under the age of 17.</string>
+	<key>83</key>
+	<string>In Indiana, One man may not back into a parking spot becasue it prevents police officers from seeing the license plate.</string>
+	<key>84</key>
+	<string>In Iwoa, A man with a moustache may never kiss a woman inpublic</string>
+	<key>85</key>
+	<string>In Iwoa, One-armed piano players must perform for free.</string>
+	<key>86</key>
+	<string>In Iwoa, Kisses may last for no more than five minutes.</string>
+	<key>87</key>
+	<string>In Iwoa, Tanning bed facilities must warn of the risk of getting a sunburn.</string>
+	<key>88</key>
+	<string>In Iwoa, All boxes used to pick hops must be exactly 36 inches long.</string>
+	<key>89</key>
+	<string>In Kansas, Pedestrians crossing the highways at night must weartail lights.</string>
+	<key>90</key>
+	<string>In Kansas, No one may catch fish with his bare hands.</string>
+	<key>91</key>
+	<string>In Kentucky, One may not dye a duckling blue and offer it for sale unless more than six are for sale at once.</string>
+	<key>92</key>
+	<string>In Luisiana, “Fake” wrestling matches are prohibited.</string>
+	<key>93</key>
+	<string>In Luisiana, One could possibly land in jail for 20 years upon urinating in the city’s water supply.</string>
+	<key>94</key>
+	<string>In Luisiana, It is a $500 fine to instruct a pizza delivery man to deliver a pizza to your friend without them knowing.</string>
+	<key>95</key>
+	<string>In Luisiana, Running an abortion advertisement can land you in jail for a year.</string>
+	<key>96</key>
+	<string>In Luisiana, Biting someone with your natural teeth is “simple assault,” while biting someone with your false teeth is “aggravated assault.</string>
+	<key>97</key>
+	<string>In Luisiana, One could land in jail for up to a year for making a false promise.</string>
+	<key>98</key>
+	<string>In Maine, After January 14th you will be charged a fine for having your Christmas decorations still up.</string>
+	<key>99</key>
+	<string>In Maryland, Oral sex can not be given or received anywhere.</string>
+	<key>100</key>
+	<string>In Massachusetts, Shooting ranges may not set up targets that resemble human beings.</string>
+	<key>101</key>
+	<string>In Massachusetts, Snoring is prohibited unless all bedroom windows are closed and securely locked.</string>
+	<key>102</key>
+	<string>In Massachusetts,  An old ordinance declares goatees illegal unless you first pay a special license fee for the privilege of wearing one in public.</string>
+	<key>103</key>
+	<string>In Massachusetts,  All men must carry a rifle to church on Sunday.</string>
+	<key>104</key>
+	<string>In Massachusetts,  It is illegal to go to bed without first having a full bath</string>
+	<key>105</key>
+	<string>In Massachusetts,  A woman can not be on top in sexual activities</string>
+	<key>106</key>
+	<string>In Massachusetts, Children may smoke, but they may not purchase cigarettes.</string>
+	<key>107</key>
+	<string>In Massachusetts, Quakers and witches are banned.</string>
 </dict>
 </plist>
