@@ -10,7 +10,7 @@
 
 @class FLDetailViewController;
 
-@interface FLMasterViewController : UIViewController {
+@interface FLMasterViewController : UIViewController<UITableViewDelegate, UITableViewDataSource> {
     UITableView *myTableView;
     
     UIBarButtonItem *allViewButItem;
@@ -19,6 +19,8 @@
     
     //keep track of which view is visible
     BOOL isAllView, isAboutView, isRandomView;
+    
+    NSMutableArray *lawContainer;
 }
 
 @property (strong, nonatomic) FLDetailViewController *detailViewController;
