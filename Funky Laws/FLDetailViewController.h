@@ -8,10 +8,15 @@
 
 #import <UIKit/UIKit.h>
 
-@interface FLDetailViewController : UIViewController
+@interface FLDetailViewController : UIViewController {
+
+    NSString *lawDescription;
+}
 
 @property (strong, nonatomic) id detailItem;
 
 @property (strong, nonatomic) IBOutlet UILabel *detailDescriptionLabel;
+
+-(id) initWithDescription:(NSString *)aDescription;
 
 @end
