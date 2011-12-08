@@ -89,16 +89,16 @@
     [self.view addSubview:myTableView];
     
     //Init the buttons for the toolbar
-    allViewButItem = [[UIBarButtonItem alloc] initWithTitle:@"All laws" style:UIBarButtonItemStyleBordered 
-                                                     target:self action:@selector(openAllView)];
-    aboutViewButItem = [[UIBarButtonItem alloc] initWithTitle:@"About" style:UIBarButtonItemStyleBordered 
-                                                       target:self action:@selector(openAboutView)];
-    randViewButItem = [[UIBarButtonItem alloc] initWithTitle:@"Random" style:UIBarButtonItemStyleBordered 
-                                                      target:self action:@selector(openRandomView)];
+    allViewButItem = [[[UIBarButtonItem alloc] initWithTitle:@"All laws" style:UIBarButtonItemStyleBordered 
+                                                     target:self action:@selector(openAllView)] autorelease];
+    aboutViewButItem = [[[UIBarButtonItem alloc] initWithTitle:@"About" style:UIBarButtonItemStyleBordered 
+                                                       target:self action:@selector(openAboutView)] autorelease];
+    randViewButItem = [[[UIBarButtonItem alloc] initWithTitle:@"Random" style:UIBarButtonItemStyleBordered 
+                                                      target:self action:@selector(openRandomView)] autorelease];
     
     //We add some FlexibleSpace
-    UIBarButtonItem	*space = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemFlexibleSpace
-                                                                              target:nil action:nil];
+    UIBarButtonItem	*space = [[[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemFlexibleSpace
+                                                                              target:nil action:nil] autorelease];
     
     NSArray *toolbarItems = [NSArray arrayWithObjects:space, allViewButItem, space, randViewButItem, space, aboutViewButItem, space, nil];
     [self setToolbarItems:toolbarItems];
