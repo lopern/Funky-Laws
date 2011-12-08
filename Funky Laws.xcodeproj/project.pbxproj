@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		09AF767C1490E4980040B847 /* LawObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 09AF767B1490E4980040B847 /* LawObject.m */; };
 		09DDE3D8148FF0F6008E1E38 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09DDE3D7148FF0F6008E1E38 /* UIKit.framework */; };
 		09DDE3DA148FF0F6008E1E38 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09DDE3D9148FF0F6008E1E38 /* Foundation.framework */; };
 		09DDE3DC148FF0F6008E1E38 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09DDE3DB148FF0F6008E1E38 /* CoreGraphics.framework */; };
@@ -19,6 +20,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		09AF767A1490E4980040B847 /* LawObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LawObject.h; sourceTree = "<group>"; };
+		09AF767B1490E4980040B847 /* LawObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LawObject.m; sourceTree = "<group>"; };
 		09DDE3D3148FF0F6008E1E38 /* Funky Laws.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Funky Laws.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		09DDE3D7148FF0F6008E1E38 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		09DDE3D9148FF0F6008E1E38 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -123,6 +126,8 @@
 		09DDE40214900622008E1E38 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				09AF767A1490E4980040B847 /* LawObject.h */,
+				09AF767B1490E4980040B847 /* LawObject.m */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -194,6 +199,7 @@
 				09DDE3E8148FF0F6008E1E38 /* FLAppDelegate.m in Sources */,
 				09DDE3EB148FF0F6008E1E38 /* FLMasterViewController.m in Sources */,
 				09DDE3EE148FF0F6008E1E38 /* FLDetailViewController.m in Sources */,
+				09AF767C1490E4980040B847 /* LawObject.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -295,6 +301,7 @@
 				09DDE3F9148FF0F7008E1E38 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
