@@ -17,8 +17,19 @@
 @synthesize detailItem = _detailItem;
 @synthesize detailDescriptionLabel = _detailDescriptionLabel;
 
+
+-(id) initWithDescription:(NSString *)aDescription{
+    
+    if (self = [super init]) {
+        lawDescription = [aDescription copy];
+    }
+    
+    return self;
+}
+
 - (void)dealloc
 {
+    [lawDescription release];
     [_detailItem release];
     [_detailDescriptionLabel release];
     [super dealloc];
@@ -39,11 +50,12 @@
 
 - (void)configureView
 {
-    // Update the user interface for the detail item.
-
-    if (self.detailItem) {
-        self.detailDescriptionLabel.text = [self.detailItem description];
-    }
+    //Add the the law description
+    UITextView *textView = [[[UITextView alloc] initWithFrame:CGRectMake(0, 0, 320, 480)] autorelease];    
+    [textView setText:lawDescription];
+    [textView setFont:[UIFont fontWithName:@"Arial" size:20]];
+    
+    [self.view addSubview:textView];
 }
 
 - (void)didReceiveMemoryWarning
@@ -55,7 +67,10 @@
 #pragma mark - View lifecycle
 
 - (void)viewDidLoad
-{
+{   
+    //Hide the toolbar
+    self.navigationController.toolbarHidden = YES;  
+    
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
     [self configureView];
@@ -94,13 +109,5 @@
     return (interfaceOrientation != UIInterfaceOrientationPortraitUpsideDown);
 }
 
-- (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
-{
-    self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
-    if (self) {
-        self.title = NSLocalizedString(@"Detail", @"Detail");
-    }
-    return self;
-}
 							
 @end
